@@ -1,0 +1,13 @@
+[package]
+name = "pulldown-cmark-codeblock"
+version = "0.1.0"
+edition = "2024"
+license = "EUPL-1.2"
+description = "A fenced code block extractor for Markdown documents built on pulldown-cmark"
+repository = "https://github.com/drupol/pulldown-cmark-codeblock"
+keywords = ["pulldown-cmark", "markdown", "codeblock"]
+categories = ["parser-implementations"]
+readme = "README.md"
+
+[dependencies]
+pulldown-cmark = { version = "0.13.3", default-features = false }
